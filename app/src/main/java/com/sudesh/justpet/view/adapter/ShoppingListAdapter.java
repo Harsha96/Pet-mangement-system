@@ -49,7 +49,7 @@ import java.util.List;
  * respond to move and dismiss events from a
  * {@link android.support.v7.widget.helper.ItemTouchHelper}.
  *
- * @author Hitesh Sahu (hiteshsahu.com)
+ * @author Sudesh Ruwantha (justpet.com)
  */
 public class ShoppingListAdapter extends
         RecyclerView.Adapter<ShoppingListAdapter.ItemViewHolder> implements

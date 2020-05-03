@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hitesh Sahu (hiteshsahu.com)
+ * @author Sudesh Ruwantha (justpet.com)
  */
 public class CategoryListAdapter extends
         RecyclerView.Adapter<CategoryListAdapter.VersionViewHolder> {

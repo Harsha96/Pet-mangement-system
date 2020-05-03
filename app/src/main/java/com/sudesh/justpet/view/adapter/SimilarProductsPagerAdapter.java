@@ -32,7 +32,7 @@ import com.squareup.picasso.Picasso;
 import java.math.BigDecimal;
 
 /**
- * @author Hitesh Sahu (hiteshsahu.com)
+ * @author Sudesh Ruwantha (justpet.com)
  */
 public class SimilarProductsPagerAdapter extends PagerAdapter {
 

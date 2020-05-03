@@ -1,9 +1,9 @@
 <!--
-  ~ Copyright (c) 2017. http://hiteshsahu.com- All Rights Reserved
+  ~ Copyright (c) 2020. http://justpet.com- All Rights Reserved
   ~ Unauthorized copying of this file, via any medium is strictly prohibited
   ~ If you use or distribute this project then you MUST ADD A COPY OF LICENCE
   ~ along with the project.
-  ~  Written by Hitesh Sahu <hiteshkrsahu@Gmail.com>, 2017.
+  ~  Written by Sudesh Ruwantha <justpet@Gmail.com>, 2020.
   -->
 
 <resources>
@@ -23,14 +23,14 @@
     <string name="offer_banner">"Special offers were avilable soon please stay tuned ....."</string>
     <string name="checkout">CheckOut</string>
     <string name="similar_product">You may also like</string>
-    <string name="slogan">Assignment</string>
+    <string name="slogan">APP</string>
     <string name="email_developer_">Email Developer:</string>
     <string name="personal_website_">Personal Website :</string>
-    <string name="site_hitesh">www.hiteshsahu.com</string>
+    <string name="site_hitesh">www.justpet.com</string>
     <string name="contact_number">Contact Number</string>
-    <string name="mob_num">8888813275</string>
+    <string name="mob_num">0710455403</string>
     <string name="lab_locations">Locations</string>
-    <string name="pune">Pune</string>
-    <string name="address_value">C 1002, Lorelle Socity Wakad Pune</string>
+    <string name="paragasthota">paragasthota</string>
+    <string name="address_value">Horana paragasthota</string>
 
 </resources>

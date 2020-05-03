@@ -95,7 +95,7 @@ public class ContactUsFragment extends Fragment {
                     public void onClick(View v) {
 
                         Intent callIntent = new Intent(Intent.ACTION_DIAL);
-                        callIntent.setData(Uri.parse("tel:" + "8888813275"));
+                        callIntent.setData(Uri.parse("tel:" + "0710455403"));
                         startActivity(callIntent);
 
                     }
@@ -128,7 +128,7 @@ public class ContactUsFragment extends Fragment {
                     public void onClick(View v) {
                         Intent browserIntent = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("http://hiteshsahu.com/"));
+                                Uri.parse("http://justpet.com/"));
                         startActivity(browserIntent);
 
                     }
@@ -146,7 +146,7 @@ public class ContactUsFragment extends Fragment {
                         emailIntent
                                 .putExtra(
                                         android.content.Intent.EXTRA_EMAIL,
-                                        new String[]{"hiteshkrsahu@gmail.com"});
+                                        new String[]{"justpet@gmail.com"});
                         emailIntent.putExtra(
                                 android.content.Intent.EXTRA_SUBJECT,
                                 "Hello There");

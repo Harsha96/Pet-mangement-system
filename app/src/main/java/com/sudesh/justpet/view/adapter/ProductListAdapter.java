@@ -38,7 +38,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Hitesh Sahu (hiteshsahu.com)
+ * @author Sudesh Ruwantha (justpet.com)
  */
 public class ProductListAdapter extends
         RecyclerView.Adapter<ProductListAdapter.VersionViewHolder> implements

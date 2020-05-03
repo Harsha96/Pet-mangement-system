@@ -8,7 +8,7 @@
 
 /*
  *  The "‚‗‚" character is not a comma, it is the SINGLE LOW-9 QUOTATION MARK unicode 201A
- *  and unicode 2017 that are used for separating the items in a list.
+ *  and unicode 2020 that are used for separating the items in a list.
  */
 
 package com.sudesh.justpet.util;
