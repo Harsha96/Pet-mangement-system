@@ -29,12 +29,47 @@
 
 
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_margin="10dp"
-            android:background="@color/color_black" />
 
+
+
+        <LinearLayout
+            android:id="@+id/site_dev"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:id="@+id/pay_source_head"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="140dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:text="Click Here to place Appointment"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@color/blue"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="WWW"
+                android:background="@color/blue"
+                android:textColor="@color/blue"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </LinearLayout>
         <LinearLayout
             android:id="@+id/email"
             android:layout_width="match_parent"
@@ -48,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Customer Service"
+                android:text="24H Customer Service"
                 android:textColor="@color/color_black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -72,42 +107,6 @@
             android:background="@color/color_black" />
 
         <LinearLayout
-            android:id="@+id/site_dev"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="10dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/pay_source_head"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:text="Click Here to place Appointment"
-                android:textColor="@color/color_black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="3dp"
-                android:text="@string/site_hitesh"
-                android:textColor="@color/color_black"
-                android:textSize="15sp"
-                android:textStyle="italic" />
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_margin="10dp"
-            android:background="@color/color_black" />
-
-        <LinearLayout
             android:id="@+id/contact_num"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,7 +118,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="@string/contact_number"
+                android:text="Emergency Ambulance"
                 android:textColor="@color/color_black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -130,7 +129,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="@string/mob_num"
+                android:text="0111111111"
                 android:textColor="@color/color_black"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -155,8 +154,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="@string/lab_locations"
-                android:textColor="@color/color_black"
+                android:text="1"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -165,8 +164,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:text="@string/paragasthota"
-                android:textColor="@color/color_black"
+                android:text="1"
+                android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
         </LinearLayout>
