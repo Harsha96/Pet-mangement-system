@@ -128,7 +128,7 @@ public class PetCareFragment extends Fragment {
                     public void onClick(View v) {
                         Intent browserIntent = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("http://justpet.com/"));
+                                Uri.parse("https://justpet.000webhostapp.com/doctorinfo.php"));
                         startActivity(browserIntent);
 
                     }
