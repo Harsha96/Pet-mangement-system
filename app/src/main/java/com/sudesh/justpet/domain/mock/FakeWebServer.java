@@ -53,12 +53,12 @@ public class FakeWebServer {
     "Sell",
     "15%",
     "https://www.nutripetec.co.za/wp-content/uploads/2019/09/cat-eating-cat-food.jpg"));
-    listOfCategory
-    .add(new ProductCategoryModel(
-    "Pet",
-    "care",
-    "15%",
-    "http://www.petscareadvice.org/wp-content/uploads/2017/10/shutterstock_133079561-768x575.jpg"));
+//    listOfCategory
+//    .add(new ProductCategoryModel(
+//    "Pet",
+//    "care",
+//    "15%",
+//    "http://www.petscareadvice.org/wp-content/uploads/2017/10/shutterstock_133079561-768x575.jpg"));
     CenterRepository.getCenterRepository().setListOfCategory(listOfCategory);
   }
 

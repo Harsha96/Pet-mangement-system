@@ -50,7 +50,7 @@ public class PetCareFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.frag_about, container,
+        View rootView = inflater.inflate(R.layout.petcare, container,
                 false);
 
         getActivity().setTitle("Pet Care");
@@ -95,7 +95,7 @@ public class PetCareFragment extends Fragment {
                     public void onClick(View v) {
 
                         Intent callIntent = new Intent(Intent.ACTION_DIAL);
-                        callIntent.setData(Uri.parse("tel:" + "0710455403"));
+                        callIntent.setData(Uri.parse("tel:" + "0111965642"));
                         startActivity(callIntent);
 
                     }
@@ -169,4 +169,5 @@ public class PetCareFragment extends Fragment {
 
         return rootView;
     }
+
 }
