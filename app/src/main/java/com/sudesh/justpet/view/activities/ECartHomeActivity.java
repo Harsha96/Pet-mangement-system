@@ -169,6 +169,7 @@ public class ECartHomeActivity extends AppCompatActivity {
 
                                 return true;
 
+
                             case R.id.my_cart:
 
                                 mDrawerLayout.closeDrawers();
@@ -178,7 +179,16 @@ public class ECartHomeActivity extends AppCompatActivity {
                                         ECartHomeActivity.this,
                                         AnimationType.SLIDE_LEFT);
                                 return true;
+                            case R.id.browserl:
 
+                                mDrawerLayout.closeDrawers();
+
+                                Utils.switchContent(R.id.frag_container,
+                                        Utils.PetCare,
+                                        ECartHomeActivity.this,
+                                        AnimationType.SLIDE_LEFT);
+
+                                return true;
                             case R.id.apriori_result:
 
                                 mDrawerLayout.closeDrawers();

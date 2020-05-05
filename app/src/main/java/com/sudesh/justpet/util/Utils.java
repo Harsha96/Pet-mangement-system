@@ -1,9 +1,9 @@
 /*
- 
-  
-  
-  
-  
+
+
+
+
+
  */
 
 package com.sudesh.justpet.util;
@@ -30,6 +30,7 @@ import com.sudesh.justpet.R;
 import com.sudesh.justpet.view.fragment.ContactUsFragment;
 import com.sudesh.justpet.view.fragment.HomeFragment;
 import com.sudesh.justpet.view.fragment.MyCartFragment;
+import com.sudesh.justpet.view.fragment.PetCareFragment;
 import com.sudesh.justpet.view.fragment.ProductOverviewFragment;
 import com.sudesh.justpet.view.fragment.SettingsFragment;
 
@@ -50,6 +51,7 @@ public class Utils {
     public static final String SEARCH_FRAGMENT_TAG = "SearchFragment";
     public static final String SETTINGS_FRAGMENT_TAG = "SettingsFragment";
     public static final String OTP_LOGIN_TAG = "OTPLogingFragment";
+    public static final String PetCare = "PetCare";
     public static final String CONTACT_US_FRAGMENT = "ContactUs";
     private static final String PREFERENCES_FILE = "materialsample_settings";
     private static String CURRENT_TAG = null;
@@ -347,7 +349,9 @@ public class Utils {
                     fragmentToReplace = new SettingsFragment();
                 } else if (TAG.equals(CONTACT_US_FRAGMENT)) {
                     fragmentToReplace = new ContactUsFragment();
-                } else if (TAG.equals(PRODUCT_OVERVIEW_FRAGMENT_TAG)) {
+                }  else if (TAG.equals(PetCare)) {
+                    fragmentToReplace = new PetCareFragment();
+                }else if (TAG.equals(PRODUCT_OVERVIEW_FRAGMENT_TAG)) {
                     fragmentToReplace = new ProductOverviewFragment();
                 } else if (TAG.equals(SHOPPING_LIST_TAG)) {
                     fragmentToReplace = new MyCartFragment();
@@ -364,6 +368,8 @@ public class Utils {
                     fragmentToReplace = (ProductOverviewFragment) fragment;
                 } else if (TAG.equals(SETTINGS_FRAGMENT_TAG)) {
                     fragmentToReplace = (SettingsFragment) fragment;
+                }else if (TAG.equals(PetCare)) {
+                    fragmentToReplace = (PetCareFragment) fragment;
                 } else if (TAG.equals(CONTACT_US_FRAGMENT)) {
                     fragmentToReplace = (ContactUsFragment) fragment;
                 }

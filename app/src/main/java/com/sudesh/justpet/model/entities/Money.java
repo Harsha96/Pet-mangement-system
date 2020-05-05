@@ -1,9 +1,9 @@
 /*
- 
-  
-  
-  
-  
+
+
+
+
+
  */
 
 package com.sudesh.justpet.model.entities;
@@ -15,8 +15,8 @@ import java.util.Locale;
 
 public class Money {
 
-    private static final Currency INR = Currency.getInstance(new Locale("en",
-            "in"));
+    private static final Currency LKR = Currency.getInstance(new Locale("en",
+            "lk"));
     private static final RoundingMode DEFAULT_ROUNDING = RoundingMode.HALF_EVEN;
 
     private BigDecimal amount;
@@ -35,7 +35,7 @@ public class Money {
     }
 
     public static Money rupees(BigDecimal amount) {
-        return new Money(amount, INR);
+        return new Money(amount,LKR);
     }
 
     public BigDecimal getAmount() {
